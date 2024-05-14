@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-image: linear-gradient(orange, yellow);
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background-color: purple;
+  color: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  max-width: 400px;
+  gap: 15px;
+}
+
+h1, p {
+  line-height: 115%;
+}
+
+#roman-numeral-convertor {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+#convert-btn, input {
+  padding: 10px 25px;
+  border: none;
+  color: #fff;
+  background-color: orangered;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input {
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+}
+
+#output {
+  padding: 15px;
+  display: none;
+  background-color: orange;
+  width: 100%;
+  border-radius: 5px; 
+  font-weight: bold;
+  color: #000;
+}
